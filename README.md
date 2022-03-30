@@ -2,5 +2,5 @@
 This is a simple weather API-based app with a GUI.
 
 Required libraries (in .idea by default):
-javafx.xml
+javafx.xml,
 json_20190722.xml
