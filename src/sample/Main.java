@@ -12,8 +12,9 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Погода mini");
-        primaryStage.setScene(new Scene(root, 378, 525));
-        primaryStage.setResizable(false);
+        primaryStage.setScene(new Scene(root, 378, 525)); //Задание размера окна
+        primaryStage.setResizable(false); //Запрет на изменение размера
+        primaryStage.centerOnScreen(); //Центровка по экрану
         primaryStage.show();
     }
 
